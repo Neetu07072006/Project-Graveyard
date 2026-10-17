@@ -1,0 +1,87 @@
+
+export const initialProjects = [
+  {
+    id: "1",
+    title: "StudyBuddy AI",
+    category: "AI / MACHINE LEARNING",
+    description: "An AI-powered study companion that turns notes into summaries, quizzes, and personalized learning plans.",
+    tags: ["React", "Python", "AI"],
+    status: "revive",
+    date: "4 months ago",
+    icon: "✧",
+    color: "purple",
+    progress: 65,
+    note: "The core summarization feature works. Needs better quiz generation and a polished mobile interface.",
+    owner: "You"
+  },
+  {
+    id: "2",
+    title: "LocalLoop",
+    category: "COMMUNITY",
+    description: "A neighborhood exchange platform where people can lend, borrow, and share useful items.",
+    tags: ["Next.js", "Supabase"],
+    status: "almost",
+    date: "2 months ago",
+    icon: "◎",
+    color: "green",
+    progress: 85,
+    note: "Listings and profiles are complete. Scheduling and notifications remain.",
+    owner: "You"
+  },
+  {
+    id: "3",
+    title: "PixelGarden",
+    category: "CREATIVE TOOLS",
+    description: "A collaborative pixel-art garden where every person grows a tiny digital world.",
+    tags: ["Canvas", "WebSockets"],
+    status: "revive",
+    date: "6 months ago",
+    icon: "✿",
+    color: "pink",
+    progress: 40,
+    note: "Canvas drawing works. Real-time collaboration needs to be completed.",
+    owner: "Community"
+  },
+  {
+    id: "4",
+    title: "FocusFlow",
+    category: "PRODUCTIVITY",
+    description: "A minimal focus timer that combines task planning with calming ambient sounds.",
+    tags: ["React", "Audio API"],
+    status: "almost",
+    date: "3 weeks ago",
+    icon: "◉",
+    color: "blue",
+    progress: 92,
+    note: "Almost ready. Needs accessibility checks and final testing.",
+    owner: "Community"
+  },
+  {
+    id: "5",
+    title: "OpenAtlas",
+    category: "OPEN SOURCE",
+    description: "A community-built map of interesting places that are often missed by mainstream travel apps.",
+    tags: ["Maps", "PostGIS"],
+    status: "archived",
+    date: "1 year ago",
+    icon: "⌖",
+    color: "orange",
+    progress: 25,
+    note: "Archived while the original team was busy. Could use a new maintainer.",
+    owner: "Community"
+  },
+  {
+    id: "6",
+    title: "TinyTasks",
+    category: "DEVELOPER TOOLS",
+    description: "A small command-line tool that transforms rough notes into an actionable task list.",
+    tags: ["Node.js", "CLI"],
+    status: "revive",
+    date: "8 months ago",
+    icon: "⌘",
+    color: "yellow",
+    progress: 55,
+    note: "The parser is stable. Plugin support and documentation are unfinished.",
+    owner: "Community"
+  }
+];

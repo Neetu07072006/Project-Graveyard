@@ -1,0 +1,53 @@
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0f141c;
+  --panel: #19222f;
+  --card: #1e2838;
+  --border: #2b3849;
+  --text: #edf1f7;
+  --muted: #8ca0bc;
+  --accent: #f59e0b;
+  --input-bg: #141c27;
+}
+
+[data-theme="dark"] body,
+[data-theme="dark"] .app-shell {
+  background: var(--bg);
+  color: var(--text);
+}
+
+[data-theme="dark"] .sidebar,
+[data-theme="dark"] .topbar {
+  background: var(--panel);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .project-card,
+[data-theme="dark"] .stat-card,
+[data-theme="dark"] .note-card,
+[data-theme="dark"] .page-summary,
+[data-theme="dark"] .timeline-content {
+  background: var(--card);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] .breadcrumb strong,
+[data-theme="dark"] .breadcrumbs strong,
+[data-theme="dark"] .project-card h3,
+[data-theme="dark"] .note-card h3 {
+  color: var(--text);
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+  background: var(--input-bg);
+  color: var(--text);
+  border-color: var(--border);
+}
